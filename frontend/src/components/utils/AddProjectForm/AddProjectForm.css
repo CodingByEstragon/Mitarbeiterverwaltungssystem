@@ -1,0 +1,13 @@
+.Modal {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 5%;
+}
+.privateCheck {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}

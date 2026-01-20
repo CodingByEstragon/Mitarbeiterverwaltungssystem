@@ -1,0 +1,259 @@
+@media (min-width: 1880px) {
+  /* Styles for screens up to 1880px wide */
+  .LeftSidebarClosed {
+    background-color: #01a89e;
+    height: 500px;
+    width: 80px;
+    border-radius: 100px;
+    position: absolute;
+    left: -50px;
+    align-items: center;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out,
+      border-radius 0.3s ease-in-out;
+    top: 28px;
+    z-index: 1000;
+    top: 30px;
+  }
+
+  .LeftSidebar {
+    background-color: #01a89e;
+    height: 500px;
+    width: 250px;
+    border-radius: 50px;
+    position: absolute;
+    align-items: center;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out,
+      border-radius 0.3s ease-in-out;
+    top: 28px;
+    z-index: 1000;
+    left: -80px;
+    top: 30px;
+  }
+
+  .Btn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .employeeHolderClosed {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    height: 360px;
+    overflow-y: auto;
+  }
+
+  .employeeHolder {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 420px;
+    overflow-y: auto;
+  }
+  .employeeHolderClosed::-webkit-scrollbar {
+    display: none;
+  }
+  .employeeHolder::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sideItem {
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sideItemOpen {
+    display: flex;
+    align-self: left;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    min-height: 60px;
+    gap: 10px;
+    padding: 0 5px;
+  }
+
+  .avatar {
+    background-color: white;
+    color: #01a89e;
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sideItem:hover {
+    background-color: #00393518;
+  }
+
+  .sideItemOpen:hover {
+    background-color: #00393518;
+  }
+
+  .name {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nameClosed {
+    composes: name;
+    visibility: hidden;
+  }
+
+  .userSearchbar {
+    margin: 8px;
+  }
+
+  .MuiInputBase-input {
+    background: white;
+    border-radius: 18px;
+  }
+
+  .MuiTextField-root {
+    background: white;
+    border-radius: 18px;
+  }
+}
+
+@media screen and (min-width: 1496px) and (max-width: 1879px) {
+  /* Styles for screens up to 1496px wide */
+
+  .LeftSidebarClosed {
+    background-color: #01a89e;
+    height: 420px;
+    width: 70px;
+    border-radius: 100px;
+    position: absolute;
+    left: -50px;
+    align-items: center;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out,
+      border-radius 0.3s ease-in-out;
+    z-index: 100;
+    top: 30px;
+  }
+
+  .LeftSidebar {
+    background-color: #01a89e;
+    height: 420px;
+    width: 250px;
+    border-radius: 50px;
+    position: absolute;
+    align-items: center;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out,
+      border-radius 0.3s ease-in-out;
+    z-index: 1000;
+    left: -80px;
+    top: 30px;
+  }
+
+  .Btn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .employeeHolderClosed {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    height: 280px;
+    overflow-y: auto;
+  }
+
+  .employeeHolder {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 350px;
+    overflow-y: auto;
+  }
+  .employeeHolderClosed::-webkit-scrollbar {
+    display: none;
+  }
+  .employeeHolder::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sideItem {
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sideItemOpen {
+    display: flex;
+    align-self: left;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    min-height: 60px;
+    gap: 10px;
+    padding: 0 5px;
+  }
+
+  .avatar {
+    background-color: white;
+    color: #01a89e;
+    height: 50px;
+    width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sideItem:hover {
+    background-color: #00393518;
+  }
+
+  .sideItemOpen:hover {
+    background-color: #00393518;
+  }
+
+  .name {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nameClosed {
+    composes: name;
+    visibility: hidden;
+  }
+
+  .userSearchbar {
+    margin: 8px;
+  }
+
+  .MuiInputBase-input {
+    background: white;
+    border-radius: 18px;
+  }
+
+  .MuiTextField-root {
+    background: white;
+    border-radius: 18px;
+  }
+}

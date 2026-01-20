@@ -1,0 +1,50 @@
+@media screen and (min-width: 1880px) {
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.rightSideNav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.navigationText {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+}
+@media screen and (min-width: 1496px) and (max-width: 1879px)  {
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .rightSideNav{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    
+    }
+    
+    .navigationText {
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+    }
+    #logo{
+        height: 40px;
+    }
+    #user{
+        height: 70px;
+    }
+}

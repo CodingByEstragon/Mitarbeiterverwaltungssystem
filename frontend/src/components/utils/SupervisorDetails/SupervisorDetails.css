@@ -1,0 +1,35 @@
+.card {
+  padding: 10px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.filterEmployees {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.toggle-Button {
+  margin-top: 5px;
+}
+hr {
+  width: 100%;
+}
+.supervisorAvatar {
+  background-color: white;
+  color: #01a89e;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #01a89e;
+  font-weight: bold;
+  font-size: large;
+}

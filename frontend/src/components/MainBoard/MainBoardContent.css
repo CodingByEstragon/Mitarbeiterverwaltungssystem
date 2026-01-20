@@ -1,0 +1,41 @@
+.scrollableMainBoard {
+  padding: 30px 80px;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  display: flex;
+  max-width: 1590px;
+  justify-self: center;
+  max-height: 700px;
+  overflow-y: hidden;
+}
+.scrollableMainBoard::-webkit-scrollbar {
+  display: none;
+}
+.MainBoardContent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 1880px) {
+  .scrollableMainBoard {
+    padding: 30px 60px;
+  }
+
+  .MainBoardContent {
+    gap: 40px;
+  }
+}
+
+/* 1496px screen */
+@media screen and (min-width: 1496px) and (max-width: 1879px) {
+  .scrollableMainBoard {
+    padding: 30px 40px;
+  }
+
+  .MainBoardContent {
+    gap: 30px;
+  }
+}
